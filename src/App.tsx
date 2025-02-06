@@ -1,11 +1,11 @@
-import './App.css'
+import BentoGrid from "./components/BentoGrid";
 
 function App() {
   return (
-    <>
-      <h1>Professor Corrêa</h1>
-    </>
-  )
+    <div>
+      <BentoGrid />
+    </div>
+  );
 }
 
-export default App
+export default App;
