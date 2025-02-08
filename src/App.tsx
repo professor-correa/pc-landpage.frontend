@@ -1,9 +1,11 @@
-import BentoGrid from "./components/BentoGrid";
+import { Card } from './components/card';
+import { ThemeToogle } from './components/themeToogle';
+import './styles/global.css'
 
 function App() {
   return (
     <div>
-      <BentoGrid />
+      <Card icon={<ThemeToogle />} />
     </div>
   );
 }

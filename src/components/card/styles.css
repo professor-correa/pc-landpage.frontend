@@ -1,0 +1,29 @@
+@import url('../../styles/global.css');
+
+.card {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--card-background-color);
+    width: 250px;
+    height: 250px;
+    border: 3px solid var(--card-border-color);
+    border-radius: 32px;
+}
+
+.card-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+
+    background-color: var(--card-background-color);
+    width: 44px;
+    height: 44px;
+    border-radius: 44px;
+    border: 2px solid var(--card-border-color);
+}
